@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.text-main-red {
+  color: #FF7C84 !important;
+}
+
+.text-gray {
+  color: #575757;
+}
+
+.shadow-red {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(255, 124, 132, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(255, 124, 132, 0.2);
+}
+
+.shadow-gray {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(87, 87, 87, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(87, 87, 87, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: #C1C1C1;
+  border-radius: 5px;
+  /* Handle on hover */
+}
+
+html ::-webkit-scrollbar-thumb:hover {
+  background: #575757;
+}
+
+.dark {
+  background-color: #0D1117 !important;
+  color: #C9D1D9 !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.dark nav a {
+  color: #C9D1D9 !important;
+}
+
+.dark .bg-dark-custom {
+  background-color: #161B22 !important;
+}
+
+.dark .banner {
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  background: url("../images/covidwebbannerdark.svg");
+}
+
+.dark #rs-rujukan input, .dark #rs-rujukan select {
+  background-color: #161B22;
+  color: #C9D1D9;
+}
+
+.dark #rs-rujukan table thead {
+  background-color: #0D1117 !important;
+  color: #C9D1D9 !important;
+}
+
+.dark #rs-rujukan table td {
+  color: #C9D1D9 !important;
+}
+
+.dark #rs-rujukan .page-item .page-link {
+  color: #C9D1D9;
+  background-color: #262D33;
+  border-color: #C9D1D9;
+}
+
+.dark #rs-rujukan .page-item.active .page-link {
+  color: #262D33;
+  background-color: #C9D1D9;
+  border-color: #C9D1D9;
+}
+
+.dark .theme-switch-btn button {
+  background-color: #161B22;
+  color: #575757;
+}
+
+.dark .theme-switch-btn button:hover {
+  background-color: #262D33;
+}
+
+.dark footer {
+  -webkit-box-shadow: 0 -5px 8px 0 rgba(38, 45, 51, 0.2);
+          box-shadow: 0 -5px 8px 0 rgba(38, 45, 51, 0.2);
+  border-top: 3px solid #262D33;
+}
+
+.dark footer i {
+  color: #C9D1D9;
+}
+
+.light {
+  background-color: white !important;
+  color: black;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.light p, .light small, .light h6 {
+  color: #575757;
+}
+
+.light .banner {
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  background: url("../images/covidwebbanner.svg");
+}
+
+.light #rs-rujukan table thead {
+  background-color: #DC3545 !important;
+  color: white !important;
+}
+
+.light #rs-rujukan table td {
+  color: #575757 !important;
+}
+
+.light #rs-rujukan .page-item .page-link {
+  color: #DC3545;
+}
+
+.light #rs-rujukan .page-item.active .page-link {
+  color: #fff;
+  background-color: #DC3545;
+  border-color: #DC3545;
+}
+
+.light .theme-switch-btn button {
+  background-color: #F5F5F5;
+}
+
+.light .theme-switch-btn button:hover {
+  background-color: #EBEBEB;
+}
+
+.light footer {
+  -webkit-box-shadow: 0 -5px 8px 0 rgba(255, 124, 132, 0.2);
+          box-shadow: 0 -5px 8px 0 rgba(255, 124, 132, 0.2);
+  border-top: 3px solid #FF7C84;
+}
+
+.light footer i {
+  color: #FF7C84;
+}
+
+.navbar-custom {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar-custom .nav-container {
+  max-width: 1440px !important;
+  padding: 0 34px;
+}
+
+.navbar-custom .nav-container .navbar-toggler:focus {
+  outline-color: #FF7C84;
+}
+
+.navbar-custom .nav-container a {
+  margin: 0 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-custom .nav-container a:hover {
+  color: #FF7C84 !important;
+}
+
+.navbar-custom .nav-container li:last-child a {
+  color: #DC3545;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.main-container .theme-switch-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.main-container .theme-switch-btn button {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 42px;
+  border-radius: 21px;
+}
+
+.main-container .theme-switch-btn button i {
+  font-size: 15px;
+}
+
+.main-container header .banner {
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-container header .banner .text-area {
+  position: relative;
+  width: 45%;
+  background: url("../images/map.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.main-container header .banner .text-area .text {
+  width: 100%;
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  -webkit-transform: translate(-5%, -50%);
+          transform: translate(-5%, -50%);
+}
+
+.main-container .content-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-container .content-container .section-content {
+  margin-bottom: 100px;
+}
+
+.main-container .content-container #info-covid img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.main-container .content-container #tips-pencegahan .content-pencegahan {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(140px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+}
+
+.main-container .content-container #tips-pencegahan .content-pencegahan img {
+  display: block;
+  width: 100%;
+}
+
+.main-container .content-container #data-covid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'judul-data-covid judul-data-covid' 'text-data-covid text-data-covid' 'graph-data-covid-harian graph-data-covid-bulanan' 'footer-data footer-data';
+  -ms-grid-columns: (minmax(45%, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.main-container .content-container #data-covid .judul-data-covid {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: judul-data-covid;
+}
+
+.main-container .content-container #data-covid .text-data-covid {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: text-data-covid;
+}
+
+.main-container .content-container #data-covid .graph-data-covid-harian {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: graph-data-covid-harian;
+  height: 350px !important;
+  width: 100%;
+  position: relative;
+}
+
+.main-container .content-container #data-covid .graph-data-covid-bulanan {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: graph-data-covid-bulanan;
+  height: 350px !important;
+  width: 100%;
+  position: relative;
+}
+
+.main-container .content-container #data-covid .footer-data {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer-data;
+  text-align: right;
+}
+
+.main-container .content-container #rs-rujukan table thead {
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .footer-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 992px) {
+  .navbar-custom .nav-container {
+    padding: 0;
+  }
+  .navbar-custom .nav-container a {
+    margin: unset;
+  }
+  .main-container {
+    padding: 0;
+  }
+  .main-container .theme-switch-btn {
+    bottom: 15px;
+    right: 15px;
+  }
+  .main-container header .banner {
+    background: unset;
+    height: 100vh;
+  }
+  .main-container header .banner .text-area {
+    background: url("../images/map.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+  .main-container header .banner .text-area .text {
+    text-align: center;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .main-container .content-container .section-content {
+    margin-bottom: 50px;
+  }
+  .main-container .content-container #data-covid {
+        grid-template-areas: 'judul-data-covid judul-data-covid' 'text-data-covid text-data-covid' 'graph-data-covid-harian graph-data-covid-harian' 'graph-data-covid-bulanan graph-data-covid-bulanan' 'footer-data footer-data';
+  }
+}
+/*# sourceMappingURL=style.css.map */
